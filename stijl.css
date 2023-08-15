@@ -1,0 +1,66 @@
+/* Stijl voor de header */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Stijl voor de footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Stijl voor de tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Stijl voor de cellen */
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Achtergrondkleuren voor specifieke cellen */
+#cel1 {
+  background-color: #ff9999;
+}
+#cel2 {
+  background-color: #99ff99;
+}
+#cel3 {
+  background-color: #9999ff;
+}
+#cel4 {
+  background-color: #ffcc00;
+}
+#cel5 {
+  background-color: #ff66cc;
+}
+#cel6 {
+  background-color: #66ccff;
+}
+#cel7 {
+  background-color: #cc66ff;
+}
+#cel8 {
+  background-color: #66ffcc;
+}
+
+/* Stijl voor woorden in kolom 1 en 3 */
+.kolom1, .kolom2 {
+  color: white;
+}
+
+/* Koppeling naar afbeeldingen */
+#cel2 img, #cel4 img, #cel6 img, #cel8 img {
+  max-width: 100px;
+  max-height: 100px;
+  display: block;
+  margin: 0 auto;
+}
